@@ -30,10 +30,3 @@ function destructivelyDeleteFromDriverByKey(driver, key) {
   driver.pop['key'];
   return driver;
 }
-
-
-
-//function destructivelyUpdateDriverWithKeyAndValue(driver, someKey, someValue){
-  //driver.someKey['someValue'];
-  //driver;
-//};
