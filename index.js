@@ -1,5 +1,5 @@
 const driver = {};
-const someDriver = { someKey: "someValue" };
+//const someDriver = { someKey: "someValue" };
 
 function updateDriverWithKeyAndValue(someDriver, someKey, someValue) {
   const newDriver = { ...someDriver};  //make a copy of original object
@@ -16,11 +16,8 @@ function destructivelyUpdateDriverWithKeyAndValue(someDriver, someKey, someValue
 }
 
 function deleteFromDriverByKey(driver, key) {
-
   const newDriver = Object.assign({}, driver);
-
   delete newDriver['name'];
-
   return newDriver;
 }
 
