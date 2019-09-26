@@ -18,6 +18,6 @@ function deleteFromDriverByKey(driver, key) {
 }
 
 function destructivelyDeleteFromDriverByKey(driver, key) {
-  driver.pop[key];
+  delete driver.key;
   driver;
 }
