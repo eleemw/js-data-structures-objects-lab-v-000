@@ -1,9 +1,9 @@
 const driver = {};
 
-function updateDriverWithKeyAndValue(someDriver, someKey, someValue) {
-  const newDriver = { ...someDriver};  //make a copy of original object
+function updateDriverWithKeyAndValue(driver, key, value) {
+  const newDriver = { ...driver};  //make a copy of original object
 
-  newDriver[someKey] = someValue;  //add new key value pair
+  driver[key] = value;  //add new key value pair
 
   return newDriver;
 }
